@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38A783BC2825D22100F5B709 /* MissedCallsScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A783B92825D22100F5B709 /* MissedCallsScreenViewModel.swift */; };
+		38A783BD2825D22100F5B709 /* MissedCallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A783BB2825D22100F5B709 /* MissedCallsViewController.swift */; };
+		38A783C62825D28800F5B709 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A783BF2825D28800F5B709 /* ServiceLayer.swift */; };
+		38A783C72825D28800F5B709 /* SimpleNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A783C12825D28800F5B709 /* SimpleNetworkManager.swift */; };
+		38A783C82825D28800F5B709 /* CallRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A783C32825D28800F5B709 /* CallRecord.swift */; };
+		38A783C92825D28800F5B709 /* DomainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A783C52825D28800F5B709 /* DomainService.swift */; };
+		38A783CC2825DAEF00F5B709 /* ErrorDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A783CB2825DAEF00F5B709 /* ErrorDomain.swift */; };
+		38A783CF2825E06100F5B709 /* UIViewController+LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A783CE2825E06100F5B709 /* UIViewController+LockView.swift */; };
+		38A783D22825EB6300F5B709 /* NordCloudTestAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38A783D02825EB6300F5B709 /* NordCloudTestAssignment.xcdatamodeld */; };
+		38A783D52826AB2E00F5B709 /* CallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A783D42826AB2E00F5B709 /* CallCell.swift */; };
+		38D9201A28245B7900106AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D9201928245B7900106AE1 /* AppDelegate.swift */; };
+		38D9201E28245B7900106AE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D9201D28245B7900106AE1 /* ViewController.swift */; };
+		38D9202128245B7900106AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D9201F28245B7900106AE1 /* Main.storyboard */; };
+		38D9202628245B7A00106AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D9202528245B7A00106AE1 /* Assets.xcassets */; };
+		38D9202928245B7A00106AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D9202728245B7A00106AE1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38A783B92825D22100F5B709 /* MissedCallsScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissedCallsScreenViewModel.swift; sourceTree = "<group>"; };
+		38A783BB2825D22100F5B709 /* MissedCallsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissedCallsViewController.swift; sourceTree = "<group>"; };
+		38A783BF2825D28800F5B709 /* ServiceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		38A783C12825D28800F5B709 /* SimpleNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleNetworkManager.swift; sourceTree = "<group>"; };
+		38A783C32825D28800F5B709 /* CallRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallRecord.swift; sourceTree = "<group>"; };
+		38A783C52825D28800F5B709 /* DomainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomainService.swift; sourceTree = "<group>"; };
+		38A783CB2825DAEF00F5B709 /* ErrorDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorDomain.swift; sourceTree = "<group>"; };
+		38A783CE2825E06100F5B709 /* UIViewController+LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+LockView.swift"; sourceTree = "<group>"; };
+		38A783D12825EB6300F5B709 /* NordCloudTestAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NordCloudTestAssignment.xcdatamodel; sourceTree = "<group>"; };
+		38A783D42826AB2E00F5B709 /* CallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallCell.swift; sourceTree = "<group>"; };
+		38D9201628245B7900106AE1 /* NordCloudTestAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NordCloudTestAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D9201928245B7900106AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38D9201D28245B7900106AE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38D9202028245B7900106AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38D9202528245B7A00106AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38D9202828245B7A00106AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38D9202A28245B7A00106AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38D9201328245B7900106AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38A783B72825D22100F5B709 /* MissedCallsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				38A783BA2825D22100F5B709 /* Views */,
+			);
+			path = MissedCallsScreen;
+			sourceTree = "<group>";
+		};
+		38A783BA2825D22100F5B709 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				38A783D32826AB2000F5B709 /* Cells */,
+				38A783B92825D22100F5B709 /* MissedCallsScreenViewModel.swift */,
+				38A783BB2825D22100F5B709 /* MissedCallsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		38A783BE2825D28800F5B709 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				38A783BF2825D28800F5B709 /* ServiceLayer.swift */,
+				38A783C02825D28800F5B709 /* Networking */,
+				38A783C42825D28800F5B709 /* Persistancy */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		38A783C02825D28800F5B709 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				38A783C12825D28800F5B709 /* SimpleNetworkManager.swift */,
+				38A783C22825D28800F5B709 /* Codables */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		38A783C22825D28800F5B709 /* Codables */ = {
+			isa = PBXGroup;
+			children = (
+				38A783C32825D28800F5B709 /* CallRecord.swift */,
+			);
+			path = Codables;
+			sourceTree = "<group>";
+		};
+		38A783C42825D28800F5B709 /* Persistancy */ = {
+			isa = PBXGroup;
+			children = (
+				38A783D02825EB6300F5B709 /* NordCloudTestAssignment.xcdatamodeld */,
+				38A783C52825D28800F5B709 /* DomainService.swift */,
+			);
+			path = Persistancy;
+			sourceTree = "<group>";
+		};
+		38A783CA2825DADF00F5B709 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				38A783CD2825E03900F5B709 /* Extensions */,
+				38A783CB2825DAEF00F5B709 /* ErrorDomain.swift */,
+				38A783BE2825D28800F5B709 /* ServiceLayer */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		38A783CD2825E03900F5B709 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				38A783CE2825E06100F5B709 /* UIViewController+LockView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		38A783D32826AB2000F5B709 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				38A783D42826AB2E00F5B709 /* CallCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		38D9200D28245B7900106AE1 = {
+			isa = PBXGroup;
+			children = (
+				38D9201828245B7900106AE1 /* NordCloudTestAssignment */,
+				38D9201728245B7900106AE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38D9201728245B7900106AE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38D9201628245B7900106AE1 /* NordCloudTestAssignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38D9201828245B7900106AE1 /* NordCloudTestAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				38A783CA2825DADF00F5B709 /* Helpers */,
+				38A783B72825D22100F5B709 /* MissedCallsScreen */,
+				38D9201928245B7900106AE1 /* AppDelegate.swift */,
+				38D9201D28245B7900106AE1 /* ViewController.swift */,
+				38D9201F28245B7900106AE1 /* Main.storyboard */,
+				38D9202528245B7A00106AE1 /* Assets.xcassets */,
+				38D9202728245B7A00106AE1 /* LaunchScreen.storyboard */,
+				38D9202A28245B7A00106AE1 /* Info.plist */,
+			);
+			path = NordCloudTestAssignment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38D9201528245B7900106AE1 /* NordCloudTestAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38D9202D28245B7A00106AE1 /* Build configuration list for PBXNativeTarget "NordCloudTestAssignment" */;
+			buildPhases = (
+				38D9201228245B7900106AE1 /* Sources */,
+				38D9201328245B7900106AE1 /* Frameworks */,
+				38D9201428245B7900106AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NordCloudTestAssignment;
+			productName = NordCloudTestAssignment;
+			productReference = 38D9201628245B7900106AE1 /* NordCloudTestAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38D9200E28245B7900106AE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					38D9201528245B7900106AE1 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 38D9201128245B7900106AE1 /* Build configuration list for PBXProject "NordCloudTestAssignment" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38D9200D28245B7900106AE1;
+			productRefGroup = 38D9201728245B7900106AE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38D9201528245B7900106AE1 /* NordCloudTestAssignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38D9201428245B7900106AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D9202928245B7A00106AE1 /* LaunchScreen.storyboard in Resources */,
+				38D9202628245B7A00106AE1 /* Assets.xcassets in Resources */,
+				38D9202128245B7900106AE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38D9201228245B7900106AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A783CC2825DAEF00F5B709 /* ErrorDomain.swift in Sources */,
+				38A783D52826AB2E00F5B709 /* CallCell.swift in Sources */,
+				38A783C72825D28800F5B709 /* SimpleNetworkManager.swift in Sources */,
+				38A783D22825EB6300F5B709 /* NordCloudTestAssignment.xcdatamodeld in Sources */,
+				38D9201E28245B7900106AE1 /* ViewController.swift in Sources */,
+				38A783C92825D28800F5B709 /* DomainService.swift in Sources */,
+				38A783C62825D28800F5B709 /* ServiceLayer.swift in Sources */,
+				38D9201A28245B7900106AE1 /* AppDelegate.swift in Sources */,
+				38A783BC2825D22100F5B709 /* MissedCallsScreenViewModel.swift in Sources */,
+				38A783C82825D28800F5B709 /* CallRecord.swift in Sources */,
+				38A783CF2825E06100F5B709 /* UIViewController+LockView.swift in Sources */,
+				38A783BD2825D22100F5B709 /* MissedCallsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38D9201F28245B7900106AE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38D9202028245B7900106AE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38D9202728245B7A00106AE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38D9202828245B7A00106AE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38D9202B28245B7A00106AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38D9202C28245B7A00106AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38D9202E28245B7A00106AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48949KRUQQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NordCloudTestAssignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.home.NordCloudTestAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38D9202F28245B7A00106AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48949KRUQQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NordCloudTestAssignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.home.NordCloudTestAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38D9201128245B7900106AE1 /* Build configuration list for PBXProject "NordCloudTestAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D9202B28245B7A00106AE1 /* Debug */,
+				38D9202C28245B7A00106AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38D9202D28245B7A00106AE1 /* Build configuration list for PBXNativeTarget "NordCloudTestAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D9202E28245B7A00106AE1 /* Debug */,
+				38D9202F28245B7A00106AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38A783D02825EB6300F5B709 /* NordCloudTestAssignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38A783D12825EB6300F5B709 /* NordCloudTestAssignment.xcdatamodel */,
+			);
+			currentVersion = 38A783D12825EB6300F5B709 /* NordCloudTestAssignment.xcdatamodel */;
+			name = NordCloudTestAssignment.xcdatamodeld;
+			path = ../../NordCloudTestAssignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 38D9200E28245B7900106AE1 /* Project object */;
+}
