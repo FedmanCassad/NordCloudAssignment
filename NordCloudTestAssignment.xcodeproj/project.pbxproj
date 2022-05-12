@@ -40,6 +40,8 @@
 		38D9202628245B7A00106AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D9202528245B7A00106AE1 /* Assets.xcassets */; };
 		38D9202928245B7A00106AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D9202728245B7A00106AE1 /* LaunchScreen.storyboard */; };
 		38F15D05282D8FB900A68C12 /* UICollectionViewCell+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F15D04282D8FB900A68C12 /* UICollectionViewCell+Shadow.swift */; };
+		38F15D06282D951D00A68C12 /* UISheetPresentationControllerDetent+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3809B29E282CBC520049304A /* UISheetPresentationControllerDetent+Private.h */; };
+		38F15D08282D9F0300A68C12 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 38F15D07282D9F0300A68C12 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +81,7 @@
 		38D9202828245B7A00106AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38D9202A28245B7A00106AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38F15D04282D8FB900A68C12 /* UICollectionViewCell+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Shadow.swift"; sourceTree = "<group>"; };
+		38F15D07282D9F0300A68C12 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -306,6 +309,7 @@
 				38A783DF28288E4500F5B709 /* Resources */,
 				38A783DE28288E3900F5B709 /* Application */,
 				38A783CA2825DADF00F5B709 /* Helpers */,
+				38F15D07282D9F0300A68C12 /* Readme.md */,
 			);
 			path = NordCloudTestAssignment;
 			sourceTree = "<group>";
@@ -317,6 +321,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F15D06282D951D00A68C12 /* UISheetPresentationControllerDetent+Private.h in Headers */,
 				3816B770282CC775005BD2B9 /* Detent-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +426,7 @@
 				38A783DD2828860600F5B709 /* CallCellViewModel.swift in Sources */,
 				38A783BD2825D22100F5B709 /* MissedCallsViewController.swift in Sources */,
 				38F15D05282D8FB900A68C12 /* UICollectionViewCell+Shadow.swift in Sources */,
+				38F15D08282D9F0300A68C12 /* Readme.md in Sources */,
 				3816B78E282CE74D005BD2B9 /* DomainCall+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -575,6 +581,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -587,7 +594,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "NordCloudTestAssignment/Detent-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -605,6 +612,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -617,7 +625,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "NordCloudTestAssignment/Detent-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
