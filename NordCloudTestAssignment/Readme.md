@@ -30,6 +30,7 @@ Second option looks pretty simple and fast to make, neverthereless I decided to 
 Actually I can't see this sluttering with rounded corners during normal run. Tell me If I wrong.
 # WARNING
 During build phase I can see such an error:
+
 ![](http://dl4.joxi.net/drive/2022/05/12/0053/3286/3517654/54/5ae7697e04.jpg)
 Don't care and run the project again. It happens due to Obj-C headers bridging. I'll try to fix this problem later, just never had a deal with obj-c.
 
