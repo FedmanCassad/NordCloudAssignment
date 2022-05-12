@@ -285,6 +285,7 @@
 		38D9200D28245B7900106AE1 = {
 			isa = PBXGroup;
 			children = (
+				38F15D07282D9F0300A68C12 /* Readme.md */,
 				38D9201828245B7900106AE1 /* NordCloudTestAssignment */,
 				38D9201728245B7900106AE1 /* Products */,
 			);
@@ -309,7 +310,6 @@
 				38A783DF28288E4500F5B709 /* Resources */,
 				38A783DE28288E3900F5B709 /* Application */,
 				38A783CA2825DADF00F5B709 /* Helpers */,
-				38F15D07282D9F0300A68C12 /* Readme.md */,
 			);
 			path = NordCloudTestAssignment;
 			sourceTree = "<group>";
