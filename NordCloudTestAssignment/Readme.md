@@ -24,7 +24,6 @@ Second option looks pretty simple and fast to make, neverthereless I decided to 
 
 
 ## Screenshots
-![](https://i.ibb.co/3Fxjq1H/Simulator-Screen-Shot-i-Phone-11-Pro-2022-05-12-at-22-23-03.png)
 ![](https://i.ibb.co/Yp39jpG/ezgif-com-gif-maker-3.gif)
 
 # IMPORTANT
