@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21D62" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DomainBusinessNumber" representedClassName="DomainBusinessNumber" syncable="YES">
+        <attribute name="label" optional="YES" attributeType="String"/>
+        <attribute name="number" optional="YES" attributeType="String"/>
+        <relationship name="call" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DomainCall" inverseName="businessNumber" inverseEntity="DomainCall"/>
+    </entity>
+    <entity name="DomainCall" representedClassName="DomainCall" syncable="YES">
+        <attribute name="created" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="duration" attributeType="String"/>
+        <attribute name="favorite" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="String"/>
+        <attribute name="origin" attributeType="String"/>
+        <attribute name="state" attributeType="String"/>
+        <attribute name="type" attributeType="String"/>
+        <relationship name="businessNumber" maxCount="1" deletionRule="Nullify" destinationEntity="DomainBusinessNumber" inverseName="call" inverseEntity="DomainBusinessNumber"/>
+        <relationship name="client" maxCount="1" deletionRule="Nullify" destinationEntity="DomainClient" inverseName="call" inverseEntity="DomainClient"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="DomainClient" representedClassName="DomainClient" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="call" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DomainCall" inverseName="client" inverseEntity="DomainCall"/>
+    </entity>
+    <elements>
+        <element name="DomainCall" positionX="-63" positionY="-18" width="128" height="164"/>
+        <element name="DomainClient" positionX="-54" positionY="-9" width="128" height="74"/>
+        <element name="DomainBusinessNumber" positionX="-36" positionY="9" width="128" height="74"/>
+    </elements>
+</model>

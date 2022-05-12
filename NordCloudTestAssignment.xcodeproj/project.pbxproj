@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3809B28F282C7EDE0049304A /* BusinessNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809B28E282C7EDE0049304A /* BusinessNumberViewController.swift */; };
+		3809B291282C808B0049304A /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3809B290282C80660049304A /* SF-Pro-Display-Bold.otf */; };
+		3809B293282C81AB0049304A /* BusinessNumberCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809B292282C81AB0049304A /* BusinessNumberCardView.swift */; };
+		3809B295282C83290049304A /* BusinessNumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809B294282C83290049304A /* BusinessNumberViewModel.swift */; };
+		3809B297282C88010049304A /* String+PhoneValiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809B296282C88010049304A /* String+PhoneValiation.swift */; };
+		3816B770282CC775005BD2B9 /* Detent-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 3809B29D282CBC220049304A /* Detent-Bridging-Header.h */; };
+		3816B787282CE260005BD2B9 /* DomainBusinessNumber+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3816B781282CE260005BD2B9 /* DomainBusinessNumber+CoreDataProperties.swift */; };
+		3816B788282CE260005BD2B9 /* DomainClient+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3816B782282CE260005BD2B9 /* DomainClient+CoreDataClass.swift */; };
+		3816B789282CE260005BD2B9 /* DomainClient+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3816B783282CE260005BD2B9 /* DomainClient+CoreDataProperties.swift */; };
+		3816B78A282CE260005BD2B9 /* DomainBusinessNumber+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3816B784282CE260005BD2B9 /* DomainBusinessNumber+CoreDataClass.swift */; };
+		3816B78D282CE74D005BD2B9 /* DomainCall+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3816B78B282CE74D005BD2B9 /* DomainCall+CoreDataClass.swift */; };
+		3816B78E282CE74D005BD2B9 /* DomainCall+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3816B78C282CE74D005BD2B9 /* DomainCall+CoreDataProperties.swift */; };
+		3816B790282D6D78005BD2B9 /* UIView+CheatShadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3816B78F282D6D78005BD2B9 /* UIView+CheatShadows.swift */; };
+		388EBAA328289D7800243625 /* DateFormatter+iso8601Full.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388EBAA228289D7800243625 /* DateFormatter+iso8601Full.swift */; };
+		388EBAA82828A2F600243625 /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 388EBAA72828A27700243625 /* SF-Pro-Display-RegularItalic.otf */; };
+		388EBAA92828A2F600243625 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 388EBAA52828A25200243625 /* SF-Pro-Display-Semibold.otf */; };
+		388EBAAA2828A2F600243625 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 388EBAA62828A26900243625 /* SF-Pro-Display-Regular.otf */; };
 		38A783BC2825D22100F5B709 /* MissedCallsScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A783B92825D22100F5B709 /* MissedCallsScreenViewModel.swift */; };
 		38A783BD2825D22100F5B709 /* MissedCallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A783BB2825D22100F5B709 /* MissedCallsViewController.swift */; };
 		38A783C62825D28800F5B709 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A783BF2825D28800F5B709 /* ServiceLayer.swift */; };
@@ -15,16 +32,34 @@
 		38A783C92825D28800F5B709 /* DomainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A783C52825D28800F5B709 /* DomainService.swift */; };
 		38A783CC2825DAEF00F5B709 /* ErrorDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A783CB2825DAEF00F5B709 /* ErrorDomain.swift */; };
 		38A783CF2825E06100F5B709 /* UIViewController+LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A783CE2825E06100F5B709 /* UIViewController+LockView.swift */; };
-		38A783D22825EB6300F5B709 /* NordCloudTestAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38A783D02825EB6300F5B709 /* NordCloudTestAssignment.xcdatamodeld */; };
 		38A783D52826AB2E00F5B709 /* CallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A783D42826AB2E00F5B709 /* CallCell.swift */; };
+		38A783D82828755900F5B709 /* NordCloudStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38A783D62828755900F5B709 /* NordCloudStore.xcdatamodeld */; };
+		38A783DB282884B000F5B709 /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A783DA282884B000F5B709 /* UIColor+HexString.swift */; };
+		38A783DD2828860600F5B709 /* CallCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A783DC2828860600F5B709 /* CallCellViewModel.swift */; };
 		38D9201A28245B7900106AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D9201928245B7900106AE1 /* AppDelegate.swift */; };
-		38D9201E28245B7900106AE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D9201D28245B7900106AE1 /* ViewController.swift */; };
-		38D9202128245B7900106AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D9201F28245B7900106AE1 /* Main.storyboard */; };
 		38D9202628245B7A00106AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D9202528245B7A00106AE1 /* Assets.xcassets */; };
 		38D9202928245B7A00106AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D9202728245B7A00106AE1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3809B28E282C7EDE0049304A /* BusinessNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessNumberViewController.swift; sourceTree = "<group>"; };
+		3809B290282C80660049304A /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		3809B292282C81AB0049304A /* BusinessNumberCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessNumberCardView.swift; sourceTree = "<group>"; };
+		3809B294282C83290049304A /* BusinessNumberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessNumberViewModel.swift; sourceTree = "<group>"; };
+		3809B296282C88010049304A /* String+PhoneValiation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+PhoneValiation.swift"; sourceTree = "<group>"; };
+		3809B29D282CBC220049304A /* Detent-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Detent-Bridging-Header.h"; sourceTree = "<group>"; };
+		3809B29E282CBC520049304A /* UISheetPresentationControllerDetent+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISheetPresentationControllerDetent+Private.h"; sourceTree = "<group>"; };
+		3816B781282CE260005BD2B9 /* DomainBusinessNumber+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DomainBusinessNumber+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3816B782282CE260005BD2B9 /* DomainClient+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DomainClient+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3816B783282CE260005BD2B9 /* DomainClient+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DomainClient+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3816B784282CE260005BD2B9 /* DomainBusinessNumber+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DomainBusinessNumber+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3816B78B282CE74D005BD2B9 /* DomainCall+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DomainCall+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3816B78C282CE74D005BD2B9 /* DomainCall+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DomainCall+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3816B78F282D6D78005BD2B9 /* UIView+CheatShadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+CheatShadows.swift"; sourceTree = "<group>"; };
+		388EBAA228289D7800243625 /* DateFormatter+iso8601Full.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+iso8601Full.swift"; sourceTree = "<group>"; };
+		388EBAA52828A25200243625 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		388EBAA62828A26900243625 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		388EBAA72828A27700243625 /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
 		38A783B92825D22100F5B709 /* MissedCallsScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissedCallsScreenViewModel.swift; sourceTree = "<group>"; };
 		38A783BB2825D22100F5B709 /* MissedCallsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissedCallsViewController.swift; sourceTree = "<group>"; };
 		38A783BF2825D28800F5B709 /* ServiceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
@@ -33,12 +68,12 @@
 		38A783C52825D28800F5B709 /* DomainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomainService.swift; sourceTree = "<group>"; };
 		38A783CB2825DAEF00F5B709 /* ErrorDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorDomain.swift; sourceTree = "<group>"; };
 		38A783CE2825E06100F5B709 /* UIViewController+LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+LockView.swift"; sourceTree = "<group>"; };
-		38A783D12825EB6300F5B709 /* NordCloudTestAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NordCloudTestAssignment.xcdatamodel; sourceTree = "<group>"; };
 		38A783D42826AB2E00F5B709 /* CallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallCell.swift; sourceTree = "<group>"; };
+		38A783D72828755900F5B709 /* NordCloudStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NordCloudStore.xcdatamodel; sourceTree = "<group>"; };
+		38A783DA282884B000F5B709 /* UIColor+HexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexString.swift"; sourceTree = "<group>"; };
+		38A783DC2828860600F5B709 /* CallCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallCellViewModel.swift; sourceTree = "<group>"; };
 		38D9201628245B7900106AE1 /* NordCloudTestAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NordCloudTestAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D9201928245B7900106AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38D9201D28245B7900106AE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		38D9202028245B7900106AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38D9202528245B7A00106AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38D9202828245B7A00106AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38D9202A28245B7A00106AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +90,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3809B28D282C7EC40049304A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				38A783B92825D22100F5B709 /* MissedCallsScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3809B298282C9D970049304A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				38A783DC2828860600F5B709 /* CallCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3809B299282CA55F0049304A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3809B294282C83290049304A /* BusinessNumberViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3816B771282CD202005BD2B9 /* ErrorResolving */ = {
+			isa = PBXGroup;
+			children = (
+				38A783CB2825DAEF00F5B709 /* ErrorDomain.swift */,
+			);
+			path = ErrorResolving;
+			sourceTree = "<group>";
+		};
+		3816B77E282CE260005BD2B9 /* ManagedClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3816B78B282CE74D005BD2B9 /* DomainCall+CoreDataClass.swift */,
+				3816B78C282CE74D005BD2B9 /* DomainCall+CoreDataProperties.swift */,
+				3816B781282CE260005BD2B9 /* DomainBusinessNumber+CoreDataProperties.swift */,
+				3816B782282CE260005BD2B9 /* DomainClient+CoreDataClass.swift */,
+				3816B783282CE260005BD2B9 /* DomainClient+CoreDataProperties.swift */,
+				3816B784282CE260005BD2B9 /* DomainBusinessNumber+CoreDataClass.swift */,
+			);
+			path = ManagedClasses;
+			sourceTree = "<group>";
+		};
+		388EBAA42828A24B00243625 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				388EBAA72828A27700243625 /* SF-Pro-Display-RegularItalic.otf */,
+				3809B290282C80660049304A /* SF-Pro-Display-Bold.otf */,
+				388EBAA52828A25200243625 /* SF-Pro-Display-Semibold.otf */,
+				388EBAA62828A26900243625 /* SF-Pro-Display-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		388EBAAC2828A69900243625 /* BusinessNumberScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3809B299282CA55F0049304A /* ViewModel */,
+				388EBAAD2828A74200243625 /* Views */,
+			);
+			path = BusinessNumberScreen;
+			sourceTree = "<group>";
+		};
+		388EBAAD2828A74200243625 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3809B28E282C7EDE0049304A /* BusinessNumberViewController.swift */,
+				3809B292282C81AB0049304A /* BusinessNumberCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		38A783B72825D22100F5B709 /* MissedCallsScreen */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,8 +175,8 @@
 		38A783BA2825D22100F5B709 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3809B28D282C7EC40049304A /* ViewModel */,
 				38A783D32826AB2000F5B709 /* Cells */,
-				38A783B92825D22100F5B709 /* MissedCallsScreenViewModel.swift */,
 				38A783BB2825D22100F5B709 /* MissedCallsViewController.swift */,
 			);
 			path = Views;
@@ -103,8 +212,9 @@
 		38A783C42825D28800F5B709 /* Persistancy */ = {
 			isa = PBXGroup;
 			children = (
-				38A783D02825EB6300F5B709 /* NordCloudTestAssignment.xcdatamodeld */,
+				3816B77E282CE260005BD2B9 /* ManagedClasses */,
 				38A783C52825D28800F5B709 /* DomainService.swift */,
+				38A783D62828755900F5B709 /* NordCloudStore.xcdatamodeld */,
 			);
 			path = Persistancy;
 			sourceTree = "<group>";
@@ -112,9 +222,8 @@
 		38A783CA2825DADF00F5B709 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				3816B771282CD202005BD2B9 /* ErrorResolving */,
 				38A783CD2825E03900F5B709 /* Extensions */,
-				38A783CB2825DAEF00F5B709 /* ErrorDomain.swift */,
-				38A783BE2825D28800F5B709 /* ServiceLayer */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -123,6 +232,10 @@
 			isa = PBXGroup;
 			children = (
 				38A783CE2825E06100F5B709 /* UIViewController+LockView.swift */,
+				38A783DA282884B000F5B709 /* UIColor+HexString.swift */,
+				388EBAA228289D7800243625 /* DateFormatter+iso8601Full.swift */,
+				3809B296282C88010049304A /* String+PhoneValiation.swift */,
+				3816B78F282D6D78005BD2B9 /* UIView+CheatShadows.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -130,9 +243,37 @@
 		38A783D32826AB2000F5B709 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				3809B298282C9D970049304A /* ViewModel */,
 				38A783D42826AB2E00F5B709 /* CallCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		38A783DE28288E3900F5B709 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				38D9201928245B7900106AE1 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		38A783DF28288E4500F5B709 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				388EBAA42828A24B00243625 /* Fonts */,
+				38D9202728245B7A00106AE1 /* LaunchScreen.storyboard */,
+				38D9202528245B7A00106AE1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		38A783E62828907200F5B709 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				388EBAAC2828A69900243625 /* BusinessNumberScreen */,
+				38A783B72825D22100F5B709 /* MissedCallsScreen */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 		38D9200D28245B7900106AE1 = {
@@ -154,25 +295,37 @@
 		38D9201828245B7900106AE1 /* NordCloudTestAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				38A783CA2825DADF00F5B709 /* Helpers */,
-				38A783B72825D22100F5B709 /* MissedCallsScreen */,
-				38D9201928245B7900106AE1 /* AppDelegate.swift */,
-				38D9201D28245B7900106AE1 /* ViewController.swift */,
-				38D9201F28245B7900106AE1 /* Main.storyboard */,
-				38D9202528245B7A00106AE1 /* Assets.xcassets */,
-				38D9202728245B7A00106AE1 /* LaunchScreen.storyboard */,
+				3809B29D282CBC220049304A /* Detent-Bridging-Header.h */,
+				3809B29E282CBC520049304A /* UISheetPresentationControllerDetent+Private.h */,
 				38D9202A28245B7A00106AE1 /* Info.plist */,
+				38A783BE2825D28800F5B709 /* ServiceLayer */,
+				38A783E62828907200F5B709 /* Presentation */,
+				38A783DF28288E4500F5B709 /* Resources */,
+				38A783DE28288E3900F5B709 /* Application */,
+				38A783CA2825DADF00F5B709 /* Helpers */,
 			);
 			path = NordCloudTestAssignment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		3816B76F282CC764005BD2B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3816B770282CC775005BD2B9 /* Detent-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		38D9201528245B7900106AE1 /* NordCloudTestAssignment */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38D9202D28245B7A00106AE1 /* Build configuration list for PBXNativeTarget "NordCloudTestAssignment" */;
 			buildPhases = (
+				3816B76F282CC764005BD2B9 /* Headers */,
 				38D9201228245B7900106AE1 /* Sources */,
 				38D9201328245B7900106AE1 /* Frameworks */,
 				38D9201428245B7900106AE1 /* Resources */,
@@ -224,9 +377,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388EBAA82828A2F600243625 /* SF-Pro-Display-RegularItalic.otf in Resources */,
+				388EBAA92828A2F600243625 /* SF-Pro-Display-Semibold.otf in Resources */,
+				3809B291282C808B0049304A /* SF-Pro-Display-Bold.otf in Resources */,
+				388EBAAA2828A2F600243625 /* SF-Pro-Display-Regular.otf in Resources */,
 				38D9202928245B7A00106AE1 /* LaunchScreen.storyboard in Resources */,
 				38D9202628245B7A00106AE1 /* Assets.xcassets in Resources */,
-				38D9202128245B7900106AE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,32 +393,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388EBAA328289D7800243625 /* DateFormatter+iso8601Full.swift in Sources */,
 				38A783CC2825DAEF00F5B709 /* ErrorDomain.swift in Sources */,
+				3809B295282C83290049304A /* BusinessNumberViewModel.swift in Sources */,
+				3809B28F282C7EDE0049304A /* BusinessNumberViewController.swift in Sources */,
+				38A783DB282884B000F5B709 /* UIColor+HexString.swift in Sources */,
 				38A783D52826AB2E00F5B709 /* CallCell.swift in Sources */,
+				3809B293282C81AB0049304A /* BusinessNumberCardView.swift in Sources */,
 				38A783C72825D28800F5B709 /* SimpleNetworkManager.swift in Sources */,
-				38A783D22825EB6300F5B709 /* NordCloudTestAssignment.xcdatamodeld in Sources */,
-				38D9201E28245B7900106AE1 /* ViewController.swift in Sources */,
 				38A783C92825D28800F5B709 /* DomainService.swift in Sources */,
+				3816B787282CE260005BD2B9 /* DomainBusinessNumber+CoreDataProperties.swift in Sources */,
 				38A783C62825D28800F5B709 /* ServiceLayer.swift in Sources */,
+				3816B788282CE260005BD2B9 /* DomainClient+CoreDataClass.swift in Sources */,
+				3816B790282D6D78005BD2B9 /* UIView+CheatShadows.swift in Sources */,
 				38D9201A28245B7900106AE1 /* AppDelegate.swift in Sources */,
+				3816B78D282CE74D005BD2B9 /* DomainCall+CoreDataClass.swift in Sources */,
+				3816B78A282CE260005BD2B9 /* DomainBusinessNumber+CoreDataClass.swift in Sources */,
 				38A783BC2825D22100F5B709 /* MissedCallsScreenViewModel.swift in Sources */,
 				38A783C82825D28800F5B709 /* CallRecord.swift in Sources */,
+				3816B789282CE260005BD2B9 /* DomainClient+CoreDataProperties.swift in Sources */,
+				3809B297282C88010049304A /* String+PhoneValiation.swift in Sources */,
 				38A783CF2825E06100F5B709 /* UIViewController+LockView.swift in Sources */,
+				38A783D82828755900F5B709 /* NordCloudStore.xcdatamodeld in Sources */,
+				38A783DD2828860600F5B709 /* CallCellViewModel.swift in Sources */,
 				38A783BD2825D22100F5B709 /* MissedCallsViewController.swift in Sources */,
+				3816B78E282CE74D005BD2B9 /* DomainCall+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		38D9201F28245B7900106AE1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38D9202028245B7900106AE1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		38D9202728245B7A00106AE1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -314,6 +475,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -328,8 +490,11 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -372,6 +537,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -381,8 +547,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -407,9 +576,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				PRIVATE_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/PrivateHeaders";
 				PRODUCT_BUNDLE_IDENTIFIER = local.home.NordCloudTestAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NordCloudTestAssignment/Detent-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -434,9 +606,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				PRIVATE_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/PrivateHeaders";
 				PRODUCT_BUNDLE_IDENTIFIER = local.home.NordCloudTestAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NordCloudTestAssignment/Detent-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,14 +641,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		38A783D02825EB6300F5B709 /* NordCloudTestAssignment.xcdatamodeld */ = {
+		38A783D62828755900F5B709 /* NordCloudStore.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				38A783D12825EB6300F5B709 /* NordCloudTestAssignment.xcdatamodel */,
+				38A783D72828755900F5B709 /* NordCloudStore.xcdatamodel */,
 			);
-			currentVersion = 38A783D12825EB6300F5B709 /* NordCloudTestAssignment.xcdatamodel */;
-			name = NordCloudTestAssignment.xcdatamodeld;
-			path = ../../NordCloudTestAssignment.xcdatamodeld;
+			currentVersion = 38A783D72828755900F5B709 /* NordCloudStore.xcdatamodel */;
+			path = NordCloudStore.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
