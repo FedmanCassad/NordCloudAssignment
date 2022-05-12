@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class MissedCallCell: UITableViewCell {
+final class MissedCallCell: UICollectionViewCell {
     enum Constants {
         static let iconLeadingConstant: CGFloat = 17
         static let iconTopConstant: CGFloat = 16
@@ -72,6 +72,12 @@ final class MissedCallCell: UITableViewCell {
         return label
     }()
     
+    // MARK: - Lifecycle
+    override func draw(_ rect: CGRect) {
+        super.draw(rect)
+        shadowDecorate()
+    }
+    
     // MARK: - Public methods
     func configure(with viewModel: CallCellViewModelProtocol) {
         self.viewModel = viewModel
@@ -101,14 +107,15 @@ final class MissedCallCell: UITableViewCell {
                 durationLabel.heightAnchor.constraint(equalToConstant: Constants.durationHeightConstant),
                 durationLabel.centerXAnchor.constraint(equalTo: icon.centerXAnchor),
                 durationLabel.topAnchor.constraint(equalTo: icon.bottomAnchor, constant: Constants.durationTopOffset),
+                durationLabel.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -16),
                 
                 contactNameLabel.leadingAnchor.constraint(
                     equalTo: icon.trailingAnchor,
                     constant: Constants.contactNameLeadingOffset
                 ),
                 contactNameLabel.heightAnchor.constraint(equalToConstant: Constants.contactNameHeightConstant),
-                contactNameLabel.widthAnchor.constraint(equalToConstant: Constants.contactNameWidthConstant),
                 contactNameLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: contactNameTopConstant),
+                contactNameLabel.trailingAnchor.constraint(equalTo: timestampLabel.leadingAnchor),
                 
                 phoneNumberLabel.heightAnchor.constraint(equalToConstant: Constants.phoneNumberHeightConstant),
                 phoneNumberLabel.leadingAnchor.constraint(equalTo: contactNameLabel.leadingAnchor),
@@ -121,7 +128,8 @@ final class MissedCallCell: UITableViewCell {
                 timestampLabel.trailingAnchor.constraint(
                     equalTo: contentView.trailingAnchor,
                     constant: Constants.timestampTrailingOffset
-                )
+                ),
+                timestampLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 275)
             ]
         )
     }

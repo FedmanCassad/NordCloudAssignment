@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-typealias MissedCallsScreenViewModelDatasource = MissedCallsScreenViewModelProtocol & UITableViewDataSource
+typealias MissedCallsScreenViewModelDatasource = MissedCallsScreenViewModelProtocol & UICollectionViewDataSource
 
 protocol MissedCallsScreenViewModelProtocol: AnyObject {
     /// Asks service layer to load call records from two possible sources(second service asks in case of network service malfunction)
@@ -63,17 +63,17 @@ final class MissedCallsScreenViewModel: NSObject {
 
 // MARK: - UITableViewDataSource
 extension MissedCallsScreenViewModel: MissedCallsScreenViewModelDatasource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return calls?.count ?? 0
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(
-            withIdentifier: MissedCallCell.identifier,
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(
+            withReuseIdentifier: MissedCallCell.identifier,
             for: indexPath
         ) as? MissedCallCell,
               let cellModel = makeCellViewModel(forCellAt: indexPath)
-        else { return UITableViewCell() }
+        else { return UICollectionViewCell() }
         cell.configure(with: cellModel)
         return cell
     }

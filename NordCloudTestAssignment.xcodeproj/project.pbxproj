@@ -39,6 +39,7 @@
 		38D9201A28245B7900106AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D9201928245B7900106AE1 /* AppDelegate.swift */; };
 		38D9202628245B7A00106AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D9202528245B7A00106AE1 /* Assets.xcassets */; };
 		38D9202928245B7A00106AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D9202728245B7A00106AE1 /* LaunchScreen.storyboard */; };
+		38F15D05282D8FB900A68C12 /* UICollectionViewCell+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F15D04282D8FB900A68C12 /* UICollectionViewCell+Shadow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		38D9202528245B7A00106AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38D9202828245B7A00106AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38D9202A28245B7A00106AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38F15D04282D8FB900A68C12 /* UICollectionViewCell+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Shadow.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 				388EBAA228289D7800243625 /* DateFormatter+iso8601Full.swift */,
 				3809B296282C88010049304A /* String+PhoneValiation.swift */,
 				3816B78F282D6D78005BD2B9 /* UIView+CheatShadows.swift */,
+				38F15D04282D8FB900A68C12 /* UICollectionViewCell+Shadow.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 				38A783D82828755900F5B709 /* NordCloudStore.xcdatamodeld in Sources */,
 				38A783DD2828860600F5B709 /* CallCellViewModel.swift in Sources */,
 				38A783BD2825D22100F5B709 /* MissedCallsViewController.swift in Sources */,
+				38F15D05282D8FB900A68C12 /* UICollectionViewCell+Shadow.swift in Sources */,
 				3816B78E282CE74D005BD2B9 /* DomainCall+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

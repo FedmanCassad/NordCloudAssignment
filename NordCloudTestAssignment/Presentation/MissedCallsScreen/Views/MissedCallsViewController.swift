@@ -11,14 +11,20 @@ class MissedCallsViewController: UIViewController {
     
     // MARK: - Private properties
     
-    private lazy var callsTableView: UITableView = {
-        let tableView = UITableView()
-        tableView.translatesAutoresizingMaskIntoConstraints = false
-        tableView.delegate = self
-        tableView.dataSource = viewModel
-        tableView.contentInset = .init(top: 0, left: 0, bottom: 0, right: 0)
-        tableView.register(MissedCallCell.self, forCellReuseIdentifier: MissedCallCell.identifier)
-        return tableView
+    private lazy var callsCollection: UICollectionView = {
+        let layout = UICollectionViewFlowLayout()
+        layout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
+        layout.scrollDirection = .vertical
+        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        collectionView.dataSource = viewModel
+        collectionView.backgroundColor = .white
+        collectionView.allowsSelection = false
+        collectionView.delegate = self
+        collectionView.showsVerticalScrollIndicator = false
+        collectionView.register(MissedCallCell.self, forCellWithReuseIdentifier: MissedCallCell.identifier)
+        collectionView.translatesAutoresizingMaskIntoConstraints = false
+        collectionView.allowsSelection = true
+        return collectionView
     }()
     
     let viewModel: MissedCallsScreenViewModelDatasource
@@ -48,17 +54,17 @@ class MissedCallsViewController: UIViewController {
             lockTheView()
             await viewModel.retrieveMissedCallsData()
             unlockTheView()
-            callsTableView.reloadData()
+            callsCollection.reloadData()
         }
     }
     
     private func setupViews() {
-        view.addSubview(callsTableView)
+        view.addSubview(callsCollection)
         NSLayoutConstraint.activate([
-            callsTableView.topAnchor.constraint(equalTo: view.topAnchor),
-            callsTableView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
-            callsTableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
-            callsTableView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16)
+            callsCollection.topAnchor.constraint(equalTo: view.topAnchor),
+            callsCollection.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            callsCollection.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            callsCollection.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ])
     }
     
@@ -76,19 +82,25 @@ class MissedCallsViewController: UIViewController {
     }
 }
 
-extension MissedCallsViewController: UITableViewDelegate {
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        96
+extension MissedCallsViewController: UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        12
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         guard let businessModel = viewModel.makeBusinessCardViewModel(at: indexPath) else { return }
         let businessCardVC = BusinessNumberViewController(withModel: businessModel)
-        let customDetent: UISheetPresentationController.Detent = ._detent(withIdentifier: "Test1", constant: 137.0)
+        let customDetent: UISheetPresentationController.Detent = ._detent(withIdentifier: "Custom", constant: 121.0)
         if let sheet = businessCardVC.sheetPresentationController {
             sheet.detents = [customDetent]
         }
-        tableView.deselectRow(at: indexPath, animated: true)
+        collectionView.deselectItem(at: indexPath, animated: true)
         present(businessCardVC, animated: true)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        // --Dunno how but this tricky dog-nail works as expected without any warnings.
+        return CGSize(width: collectionView.bounds.width, height: collectionView.bounds.height)
     }
 }
