@@ -28,7 +28,7 @@ Second option looks pretty simple and fast to make, neverthereless I decided to 
 ![](https://i.ibb.co/Yp39jpG/ezgif-com-gif-maker-3.gif)
 
 # IMPORTANT
-Actually I can't see this sluttering with rounded corners during normal run. Tell me If I wrong.
+Actually I can't see this glitch with rounded corners during normal run. Tell me If I wrong.
 # WARNING
 During build phase I can see such an error:
 
