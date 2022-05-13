@@ -11,9 +11,10 @@ Due to dramatically lack of time I made few not obvious decisions.
 There were 3 options to choose making bottomSheet controller:
 1. Write custom presentation/transition controller.
 2. Use as child view controller.
-3. Use system pageSheet modal presentation style.
+3. Simple view with animated appearing/disappearing.
+4. Use system pageSheet modal presentation style.
 
-So as I mentioned before, due to lack of time I decided to use system one (option 3), everything is fine with it, but I faced the problem of custom height of presenting controller. I've solved this problem in very interesting way. (Take a look to imported bridging headers)
+So as I mentioned before, due to lack of time I decided to use system one (option 4), everything is fine with it, but I faced the problem of custom height of presenting controller. I've solved this problem in very interesting way. (Take a look to imported bridging headers)
 
 Regarding to data persistancy there were 2 options of packing data:
 1. Classic approach, with few entities and relationships over them.
